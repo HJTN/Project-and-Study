@@ -1,0 +1,6 @@
+﻿  crain.cpp
+C:\Users\user\Desktop\Project File\Coding Test\crain\crain\crain.cpp(11,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\crain\crain\crain.cpp(12,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\crain\crain\crain.cpp(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\crain\crain\crain.cpp(28,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  crain.vcxproj -> C:\Users\user\Desktop\Project File\Coding Test\crain\Debug\crain.exe

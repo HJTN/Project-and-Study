@@ -1,0 +1,8 @@
+<h1 id="aboutme">About me</h1>
+<img src="image\20200718_193027_196.jpg" height="250" width="200" alt="이미지x">
+<br><strong>Jinsu Heo</strong>
+<p>Enjoying Web development<br>
+c++, html, css, js<br>
+</p>
+<a href="https://www.facebook.com/"><img src="image\facebook.jpg" height="50" width="50" alt="이미지x"></a>
+<a href="https://www.instagram.com/"><img src="image\instagram.jpg" height="50" width="50" alt="이미지x"></a>

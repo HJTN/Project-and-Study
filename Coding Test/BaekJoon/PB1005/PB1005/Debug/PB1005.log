@@ -1,0 +1,7 @@
+﻿  pb1005.cpp
+C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\PB1005\pb1005.cpp(50,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\PB1005\pb1005.cpp(56,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\PB1005\pb1005.cpp(65,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\PB1005\pb1005.cpp(73,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\PB1005\pb1005.cpp(82,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  PB1005.vcxproj -> C:\Users\user\Desktop\Project File\BaekJoon Problem\PB1005\Debug\PB1005.exe

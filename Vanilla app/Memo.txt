@@ -1,0 +1,47 @@
+// 변수 이름 작성 시 유의사항
+1. js → 변수 첫글자 다음에 오는 단어는 대문자로 연결 → CamelCase    ex. myVariable
+2. python → under line으로 단어 구분 → SnakeCase    ex. my_variable
+
+// JavaScript에서의 HTML
+document → html file의 코드가 object 형태로 저장되어 있음
+
+// Element 가져오기
+1. document.getElementById
+2. document.querySelector → element를 CSS 방식으로 검색 (첫 번째 형태를 가져옴)
+
+// Event
+※ Object에서 on으로 시작
+※ Window Event → ctrl c 같은 copy event or resize 등등 윈도우에서 발생하는 event를 다룸
+1. addEventListener("{Event type}", {Executing Function}) → event type은 console.dir에서 event 종류 확인 가능 or mdn site 참고
+ex. addEventListener("click", handleTitleClick) → click event를 listen하면 handleTitleClick 함수를 추가하여 실행
+2. {Event} = {함수}로 할당 가능
+
+// Event의 기본 동작 막기
+1. {event object}.preventDefault()
+ex. function onLoginBtnClick(event) {
+    event.preventDefault();
+    console.log(loginInput.value);
+}
+
+// ✨✨Browser console에서 object 보기
+1. console.dir({변수])
+
+// Class Name 다루기
+1. classList → tag의 class명을 교체하지 않고 추가, 삭제할 수 있음
+2. classList.toggle({class명}) → classList에 class명이 있는지 확인하고 있으면 삭제, 없으면 추가 (버튼 역할을 한다고 보면 됨)
+
+// 백틱(``) 사용
+1. `Hello ${variable}` → 변수와 문자열 합침
+
+// Local Storage 사용
+1. localStorage.setItem({key}, {value})
+
+// Interval 사용 → 특정 시간 경과마다 activity 발생
+setInterval({function}, {ms 입력})
+
+// PadStart 사용 → string을 최대 길이에 맞추기 위해 특정 문자 추가
+{string}.padStart({maxLenght}, {adding string})
+ex. "1".padstart(2, "0"); → 최대 길이가 2인 string을 출력하는데 길이가 1이면 앞에 "0"을 추가
+
+// JSON.stringify({object or array}): object or array를 string 형태로 반환
+// JSON.parse({string}): string을 object or array 형태로 반환

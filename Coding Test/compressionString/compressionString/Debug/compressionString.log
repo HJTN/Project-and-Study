@@ -1,0 +1,10 @@
+﻿  test.cpp
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(18,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(20,20): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(31,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(34,65): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(35,19): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(39,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(50,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project File\Coding Test\compressionString\compressionString\test.cpp(58,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  compressionString.vcxproj -> C:\Users\user\Desktop\Project File\Coding Test\compressionString\Debug\compressionString.exe
