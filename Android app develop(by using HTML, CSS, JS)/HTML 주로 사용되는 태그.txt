@@ -1,0 +1,27 @@
+1. <p> 태그
+→ paragraph (= 단락)
+
+2. <h1> ~ <h5> 태그
+→ 중요한 글자나 문자열 출력
+→ h뒤의 숫자가 커질수록 글자 크기가 작아짐
+
+3. <img src="{이미지 위치}" /> 태그
+→ 현재 경로 = ./ or 생략
+→ 상위 폴더 경로 = ../
+
+4. <div> 태그
+→ 화면 영역 분할
+
+5. <input /> 태그
+→ 유저로부터 입력 받기
+→ type 속성에 따라 다양한 종류의 입력 형태 가짐
+ex) <input type="text" />
+
+6. <select> 태그
+→ input과 비슷한 태그
+ex) <select>
+        <option>Hi</option>
+        <option>Hello</option>
+        <option>Bye</option>
+        <option>Good Bye</option>
+    </select>

@@ -1,0 +1,14 @@
+레이아웃 -> ViewGroup 객체
+위젯(버튼, 텍스트 상자, ...) -> View 객체
+
+//  아래 코드를 AndroidManifest.xml 파일에 추가하면,
+    DisplayMessageActivity의 화면에서 MainActivity 화면으로 넘어가는
+    뒤로가기 버튼이 APP bar에 생성됨
+<activity android:name=".DisplayMessageActivity"
+          android:parentActivityName=".MainActivity">
+    <!-- The meta-data tag is required if you support API level 15 and lower -->
+    <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".MainActivity" />
+</activity>
+--> android:parentActivityName 사용 ★

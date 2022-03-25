@@ -1,0 +1,17 @@
+방향키: 시점 이동
+Alt+마우스: 시점 회전
+F: 해당 object로 focus
+
+// Data Type
+1. Rigidbody
+2. InputValue
+3. GameObject
+
+// Some functions
+1. transform
+
+// Functions
+1. Start
+2. OnMove
+3. FixedUpdate
+4. LateUpdate
