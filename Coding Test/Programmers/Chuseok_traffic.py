@@ -1,11 +1,13 @@
 # 추석 트래픽 (Feat. Programmers)
-from concurrent.futures import process
-from tabnanny import process_tokens
-from time import time
-
 
 def solution(lines):
     answer = []
+    time_list = dataProcessing(lines)
+    day, hour, minute, second = findMin(time_list)
+    
+    return answer
+
+def dataProcessing(lines):
     time_list = {}
     for idx, line in enumerate(lines):
         first, second, third = line.split()
@@ -22,8 +24,30 @@ def solution(lines):
         elif int(day) - 1 >= 0:
             time_list[idx]['start'] = dict([('day',int(day)-1),('hour',int(hour)-1+24),('minute',int(minute)-1+60),('sec',round(float(sec)-float(processing)+0.001+60,3))])
         time_list[idx]['end'] = dict([('day',int(day)),('hour',int(hour)),('minute',int(minute)),('sec',float(sec))])
-        print(time_list[idx])
-    return answer
+    return time_list
+
+def findMin(time_list):
+    # Find Min Day
+    day = time_list[0]['start']['day']
+    for idx in time_list.keys():
+        if day > time_list[idx]['start']['day']:
+            day = time_list[idx]['start']['day']
+    # Find Min Hour
+    hour = time_list[0]['start']['hour']
+    for idx in time_list.keys():
+        if hour > time_list[idx]['start']['hour'] and day == time_list[idx]['start']['day']:
+            hour = time_list[idx]['start']['hour']
+    # Find Min Minute
+    minute = time_list[0]['start']['minute']
+    for idx in time_list.keys():
+        if minute > time_list[idx]['start']['minute'] and hour == time_list[idx]['start']['hour'] and day == time_list[idx]['start']['day']:
+            minute = time_list[idx]['start']['minute']
+    # Find Min second
+    second = time_list[0]['start']['sec']
+    for idx in time_list.keys():
+        if second > time_list[idx]['start']['sec'] and minute == time_list[idx]['start']['minute'] and hour == time_list[idx]['start']['hour'] and day == time_list[idx]['start']['day']:
+            second = time_list[idx]['start']['sec']
+    return day, hour, minute, second
 
 if __name__=='__main__':
     lines = [
